@@ -1,0 +1,276 @@
+[
+    {
+        "place": "cox_s_bazar",
+        "hotels": [
+            {
+                "hotel_name": "Seaside Inn",
+                "service_name": "Ocean View Suite",
+                "image_url": "https://i.ibb.co/KDtmgZc/Rectangle-26.png",
+                "bedrooms": 1,
+                "beds": 1,
+                "baths": 1,
+                "features": [
+                    "Ocean View",
+                    "Restaurant",
+                    "Swimming Pool"
+                ],
+                "star_ratings": 4,
+                "reviews": 220,
+                "price_per_night_tk": 8500
+            },
+            {
+                "hotel_name": "Sunny Resort",
+                "service_name": "Family Suite",
+                "image_url": "https://i.ibb.co/gVQFbvK/Rectangle-27.png",
+                "bedrooms": 2,
+                "beds": 2,
+                "baths": 2,
+                "features": [
+                    "Beachfront",
+                    "Bar & Lounge",
+                    "Spa"
+                ],
+                "star_ratings": 3,
+                "reviews": 175,
+                "price_per_night_tk": 6500
+            },
+            {
+                "hotel_name": "Bay View Hotel",
+                "service_name": "Deluxe Room",
+                "image_url": "https://i.ibb.co/Nj0BtNS/Rectangle-28.png",
+                "bedrooms": 1,
+                "beds": 1,
+                "baths": 1,
+                "features": [
+                    "Beach Access",
+                    "Restaurant",
+                    "WiFi"
+                ],
+                "star_ratings": 3,
+                "reviews": 150,
+                "price_per_night_tk": 4500
+            }
+        ]
+    },
+    {
+        "place": "sundarban",
+        "hotels": [
+            {
+                "hotel_name": "Mangrove Retreat",
+                "service_name": "Nature View Suite",
+                "image_url": "https://i.ibb.co/KDtmgZc/Rectangle-26.png",
+                "bedrooms": 1,
+                "beds": 1,
+                "baths": 1,
+                "features": [
+                    "Nature Walks",
+                    "Dining",
+                    "Mangrove Tours"
+                ],
+                "star_ratings": 4,
+                "reviews": 120,
+                "price_per_night_tk": 5800
+            },
+            {
+                "hotel_name": "Delta Paradise",
+                "service_name": "Mangrove View Room",
+                "image_url": "https://i.ibb.co/KDtmgZc/Rectangle-26.png",
+                "bedrooms": 1,
+                "beds": 1,
+                "baths": 1,
+                "features": [
+                    "Mangrove Excursions",
+                    "Restaurant",
+                    "Wildlife Viewing"
+                ],
+                "star_ratings": 3,
+                "reviews": 90,
+                "price_per_night_tk": 5200
+            }
+        ]
+    },
+    {
+        "place": "sajek_valley",
+        "hotels": [
+            {
+                "hotel_name": "Valley Heights Resort",
+                "service_name": "Valley View Suite",
+                "image_url": "https://i.ibb.co/KDtmgZc/Rectangle-26.png",
+                "bedrooms": 2,
+                "beds": 2,
+                "baths": 1,
+                "features": [
+                    "Valley Views",
+                    "Hiking Trails",
+                    "Dining"
+                ],
+                "star_ratings": 3,
+                "reviews": 100,
+                "price_per_night_tk": 4800
+            }
+        ]
+    },
+    {
+        "place": "saint_martin_s_island",
+        "hotels": [
+            {
+                "hotel_name": "Coral Breeze Resort",
+                "service_name": "Beachfront Villa",
+                "image_url": "https://i.ibb.co/KDtmgZc/Rectangle-26.png",
+                "bedrooms": 2,
+                "beds": 2,
+                "baths": 2,
+                "features": [
+                    "Beach Access",
+                    "Water Sports",
+                    "Seafood Restaurant"
+                ],
+                "star_ratings": 4,
+                "reviews": 210,
+                "price_per_night_tk": 7500
+            },
+            {
+                "hotel_name": "Palm Haven Beach Resort",
+                "service_name": "Ocean View Room",
+                "image_url": "https://i.ibb.co/KDtmgZc/Rectangle-26.png",
+                "bedrooms": 1,
+                "beds": 1,
+                "baths": 1,
+                "features": [
+                    "Oceanfront Bar",
+                    "Snorkeling",
+                    "Beach Lounge"
+                ],
+                "star_ratings": 3,
+                "reviews": 180,
+                "price_per_night_tk": 5800
+            }
+        ]
+    },
+    {
+        "place": "ratnodweep",
+        "hotels": [
+            {
+                "hotel_name": "Emerald Bay Hotel",
+                "service_name": "Emerald Suite",
+                "image_url": "https://i.ibb.co/KDtmgZc/Rectangle-26.png",
+                "bedrooms": 1,
+                "beds": 1,
+                "baths": 1,
+                "features": [
+                    "Island View",
+                    "Beach Access",
+                    "Restaurant"
+                ],
+                "star_ratings": 3,
+                "reviews": 140,
+                "price_per_night_tk": 5200
+            }
+        ]
+    },
+    {
+        "place": "srimangal",
+        "hotels": [
+            {
+                "hotel_name": "Tea Garden Lodge",
+                "service_name": "Tea View Room",
+                "image_url": "https://i.ibb.co/KDtmgZc/Rectangle-26.png",
+                "bedrooms": 1,
+                "beds": 1,
+                "baths": 1,
+                "features": [
+                    "Tea Garden Walks",
+                    "Tea Tasting",
+                    "Restaurant"
+                ],
+                "star_ratings": 4,
+                "reviews": 160,
+                "price_per_night_tk": 5800
+            }
+        ]
+    },
+    {
+        "place": "bandarban",
+        "hotels": [
+            {
+                "hotel_name": "Hilltop Resort",
+                "service_name": "Hill View Cottage",
+                "image_url": "https://i.ibb.co/KDtmgZc/Rectangle-26.png",
+                "bedrooms": 1,
+                "beds": 1,
+                "baths": 1,
+                "features": [
+                    "Hill Trekking",
+                    "Local Cuisine",
+                    "Scenic Views"
+                ],
+                "star_ratings": 3,
+                "reviews": 120,
+                "price_per_night_tk": 4500
+            }
+        ]
+    },
+    {
+        "place": "rangamati",
+        "hotels": [
+            {
+                "hotel_name": "Lakefront Retreat",
+                "service_name": "Lake View Suite",
+                "image_url": "https://i.ibb.co/KDtmgZc/Rectangle-26.png",
+                "bedrooms": 2,
+                "beds": 2,
+                "baths": 1,
+                "features": [
+                    "Lakefront Balcony",
+                    "Kayaking",
+                    "Cafeteria"
+                ],
+                "star_ratings": 4,
+                "reviews": 150,
+                "price_per_night_tk": 6200
+            }
+        ]
+    },
+    {
+        "place": "kuakata",
+        "hotels": [
+            {
+                "hotel_name": "Sunset Horizon Hotel",
+                "service_name": "Sunset View Room",
+                "image_url": "https://i.ibb.co/KDtmgZc/Rectangle-26.png",
+                "bedrooms": 1,
+                "beds": 1,
+                "baths": 1,
+                "features": [
+                    "Panoramic Sunset Views",
+                    "Seafood Restaurant",
+                    "Beach Access"
+                ],
+                "star_ratings": 3,
+                "reviews": 110,
+                "price_per_night_tk": 4800
+            }
+        ]
+    },
+    {
+        "place": "jaflong",
+        "hotels": [
+            {
+                "hotel_name": "River View Inn",
+                "service_name": "Riverfront Bungalow",
+                "image_url": "https://i.ibb.co/KDtmgZc/Rectangle-26.png",
+                "bedrooms": 2,
+                "beds": 2,
+                "baths": 2,
+                "features": [
+                    "River Views",
+                    "Khasi Cultural Shows",
+                    "Restaurant"
+                ],
+                "star_ratings": 3,
+                "reviews": 130,
+                "price_per_night_tk": 5500
+            }
+        ]
+    }
+]
