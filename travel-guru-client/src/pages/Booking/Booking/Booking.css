@@ -1,0 +1,38 @@
+.booking-form{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    background: white;
+    padding: 32px;
+    border-radius: 5px;
+}
+.booking-form>.primary-btn{
+    padding: 24px;
+    text-align: center;
+}
+.booking-input {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    
+}
+.booking-input>::placeholder {
+    color: black;
+    font-weight: 700;
+    opacity: 1;
+}
+.date-inputs{
+    display: flex;
+    gap: 24px;
+}
+.booking-input label{
+    color: #818181;
+}
+.date-picker, .booking-input input{
+    color: #000000;
+    font-size: 16px;
+    border: none;
+    background: #F2F2F2;
+    padding: 20px;
+    border-radius: 5px;
+}
