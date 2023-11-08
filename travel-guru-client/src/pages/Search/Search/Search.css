@@ -1,0 +1,14 @@
+.search-container{
+    max-width: 1280px;
+    margin: 0 auto;
+}
+.hotel-map-container{
+    display: flex;
+    justify-content: space-between;
+}
+.hotels{
+    flex-grow: 1;
+}
+.map{
+    flex-grow: 0;
+}

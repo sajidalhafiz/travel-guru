@@ -1,0 +1,75 @@
+.hero-section {
+    max-width: 1280px;
+    margin: 40px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    position: relative;
+    min-height: 100%;
+}
+
+.hero-content {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    gap: 24px;
+}
+
+.slide {
+    width: 70%;
+    position: absolute;
+    right: 0;
+    margin-right: -250px;
+}
+
+.slide-img {
+    width: 270px;
+    height: 416px;
+    border: 4px solid transparent;
+}
+
+.slide-img:hover,
+.slide-img:active {
+    border-radius: 24px;
+    border: 4px solid #FBBC04;
+    cursor: pointer;
+}
+
+.slide-img img {
+    width: 270px;
+    height: 416px;
+    border-radius: 20px;
+}
+
+.slide-title {
+    position: absolute;
+    bottom: 30px;
+    left: 20px;
+}
+
+.slide-title h1 {
+    font-size: 36px;
+}
+.slide-navigate{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+.slide-navigate button{
+    margin-top: 80px;
+    margin-right: 12px;
+    padding: 16px;
+    font-size: 20px;
+    border-radius: 40px;
+    border: none;
+    color: black;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.slide-navigate button:hover{
+    outline: 4px solid #FBBC04;
+}

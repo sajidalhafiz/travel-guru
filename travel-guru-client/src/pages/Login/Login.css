@@ -1,0 +1,98 @@
+.form-container {
+    width: 24%;
+    margin: 0px auto;
+}
+
+.login-form {
+    border-radius: 8px;
+    border: 1px solid #ABABAB;
+    background: rgba(255, 255, 255, 0.20);
+    padding: 32px 48px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.login-form h2 {
+    margin: 0;
+}
+
+.login-input input {
+    width: 100%;
+    border: none;
+    background: none;
+    border-bottom: 2px solid #C5C5C5;
+    padding: 12px 0;
+    outline: none;
+    color: black;
+    font-size: 16px;
+
+}
+
+.login-input input:focus {
+    border-bottom: 2px solid #F9A51A;
+}
+
+.login-input input::placeholder {
+    color: black;
+    font-size: 16px;
+
+}
+
+.check-box {
+    color: black;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.login-link {
+    text-align: center;
+}
+
+.login-link a {
+    color: #F9A51A;
+    font-weight: 500;
+}
+
+.check-forgot {
+    display: flex;
+    justify-content: space-between;
+}
+
+.divider {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+}
+
+.hr-bar {
+    width: 30%;
+    height: 1px;
+    border-bottom: 2px solid #C5C5C5;
+}
+.btn-container{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+.social-btn {
+    background: white;
+    border-radius: 57px;
+    border: 1px solid #C7C7C7;
+    padding: 6px 8px;
+    color: black;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    gap: 112px;
+}
+.social-btn:hover {
+    background: rgb(47, 47, 47);
+    color: white;
+}
+
+.social-btn img {
+    width: 37px;
+    height: 37px;
+}
