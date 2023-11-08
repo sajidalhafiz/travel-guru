@@ -6,7 +6,6 @@ const Main = () => {
     return (
         <div id='main-layout'>
             <WhiteNav/>
-            main layout
             <Outlet/>
         </div>
     );

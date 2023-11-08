@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import './WhiteNav.css'
-import logo from '../../../../public/logo-white.png'
+import logo from '../../../assets/logo-white.png'
 import { FaSistrix } from "react-icons/fa6";
 
 const WhiteNav = () => {

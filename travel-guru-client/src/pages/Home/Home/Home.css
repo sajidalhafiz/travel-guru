@@ -38,7 +38,9 @@
 }
 
 .slide-img img {
-    width: 100%;
+    width: 270px;
+    height: 416px;
+    border-radius: 20px;
 }
 
 .slide-title {

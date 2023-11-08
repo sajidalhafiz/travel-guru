@@ -6,7 +6,6 @@ const User = () => {
     return (
         <div id='user-layout'>
             <BlackNav/>
-            users
             <Outlet/>
         </div>
     );

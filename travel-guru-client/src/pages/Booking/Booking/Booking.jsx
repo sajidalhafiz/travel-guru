@@ -1,19 +1,22 @@
+import { useLoaderData } from 'react-router-dom';
 import BookingForm from '../BookingForm/BookingForm';
 import './Booking.css';
 import "react-datepicker/dist/react-datepicker.css";
 
 const Booking = () => {
-    
+    const place = useLoaderData();
+    console.log(place)
 
     return (
         <div className='hero-section'>
             <div className='hero-content'>
-                <h1>Cox's Bazar</h1>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Saepe ex repudiandae animi ut, laudantium blanditiis neque accusantium, aspernatur sit quo vero. Hic deleniti reprehenderit enim tempore sed doloribus reiciendis itaque!</p>
+                <h1>{place[0].place}</h1>
+                <p>{place[0].description}</p>
             </div>
-            <div className=''>
-                <BookingForm></BookingForm>
-            </div>
+            <BookingForm
+                bookingPlace={place[0]}
+            ></BookingForm>
+
         </div>
     );
 };

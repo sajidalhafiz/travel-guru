@@ -1,8 +1,13 @@
 import DatePicker from "react-datepicker";
 import React, { useState } from 'react';
+import { Link } from "react-router-dom";
 
-const BookingForm = () => {
+const BookingForm = ({bookingPlace}) => {
+
+    const { id, place } = bookingPlace;
+
     const [startDate, setStartDate] = useState(new Date());
+    
     return (
         <form className='booking-form'>
             <div className='booking-input'>
@@ -11,7 +16,7 @@ const BookingForm = () => {
             </div>
             <div className='booking-input'>
                 <label htmlFor="">Destination</label>
-                <input type="text" name="origin" id="" placeholder="Cox's Bazar" />
+                <input type="text" name="origin" id="" placeholder={`${place}`} />
             </div>
             <div className='date-inputs'>
                 <div className='booking-input'>
@@ -37,7 +42,7 @@ const BookingForm = () => {
                         onChange={(date) => setStartDate(date)} />
                 </div>
             </div>
-            <button className='primary-btn'>Start Booking</button>
+            <Link className='primary-btn' to={`/user/hotels/${id}`}>Start Booking</Link>
         </form>
     );
 };

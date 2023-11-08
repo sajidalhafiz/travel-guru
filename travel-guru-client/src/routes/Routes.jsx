@@ -14,11 +14,13 @@ const router = createBrowserRouter([
         children: [
             {
                 path: '/',
-                element: <Home/>
+                element: <Home/>,
+                loader: () => fetch('http://localhost:5000/places')
             },
             {
-                path: 'booking',
-                element: <Booking/>
+                path: 'places/:id',
+                element: <Booking/>,
+                loader: ({params}) => fetch(`http://localhost:5000/places/${params.id}`)
             }
         ]
     },
@@ -27,8 +29,9 @@ const router = createBrowserRouter([
         element: <User/>,
         children: [
             {
-                path: 'search',
-                element: <Search/>
+                path: 'hotels/:id',
+                element: <Search/>,
+                loader: ({params}) => fetch(`http://localhost:5000/hotels/${params.id}`)
             },
             {
                 path: 'login',

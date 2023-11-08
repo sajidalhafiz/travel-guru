@@ -1,38 +1,61 @@
-.booking-form{
+.booking-form {
     display: flex;
     flex-direction: column;
     gap: 24px;
     background: white;
     padding: 32px;
     border-radius: 5px;
+    width: 40%;
 }
-.booking-form>.primary-btn{
+
+.booking-form>.primary-btn {
     padding: 24px;
     text-align: center;
 }
+
 .booking-input {
     display: flex;
     flex-direction: column;
     gap: 12px;
-    
+
 }
-.booking-input>::placeholder {
+
+.booking-input input {
+    outline: none;
+    border: 2px solid black;
+    color: black;
+    font-weight: 700;
+}
+
+.booking-input input:focus {
+    border: 2px solid #F9A51A;
+}
+
+.booking-input input::placeholder {
     color: black;
     font-weight: 700;
     opacity: 1;
 }
-.date-inputs{
+
+.date-inputs {
     display: flex;
     gap: 24px;
 }
-.booking-input label{
+
+.booking-input label {
     color: #818181;
 }
-.date-picker, .booking-input input{
+
+.date-picker,
+.booking-input input {
     color: #000000;
     font-size: 16px;
     border: none;
     background: #F2F2F2;
     padding: 20px;
     border-radius: 5px;
+}
+.date-picker{
+    width: 210px;
+    height: 48px;
 }
